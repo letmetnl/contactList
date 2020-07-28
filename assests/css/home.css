@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    /* text-align: center; */
+}
+#contact-list{
+    margin-top: 5vh;
+    text-align: center;
+    color: gray;
+}
+#list-container{
+    width: 50%;
+    height: auto;
+    /* background-color: khaki; */
+    margin-left: 25%;
+    /* align-content: space-between; */
+}
+#list-container ul{
+    padding: 0;
+    list-style: none;
+}
+#contact{
+    padding: 3px 10px;
+    border: 1px solid white;
+    background-color: lightcoral;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    color: white;
+    display: flex;
+}
+
+#details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 2rem;
+    width: 90%;
+    /* padding: 0;
+    margin: 0; */
+}
+#contact #delete-button{
+    width: 10%;
+    text-align: center;
+    margin-top: 7px;
+}
+
+#contact #delete-button a{
+    color: white;
+    background-color: red;
+}
+#contact p{
+    margin: 5px 0px;
+}
+#details :hover{
+    cursor: pointer;
+    background-color:green;
+}
+#contact-form{
+    margin-left: 25%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* #ul-list li{
+    padding: auto;
+    margin: auto;
+    background-color: indigo;
+
+} */
